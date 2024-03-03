@@ -18,7 +18,7 @@ If it fails run the following
 
 ### `npm run dev`
 
-http://localhost:3000
+http://127.0.0.1:3000
 
 ### docker files ###
 
@@ -26,10 +26,10 @@ docker build . -t shopizerecomm/shopizer-shop:latest
 
 docker run \
 -e "APP_MERCHANT=DEFAULT" \
--e "APP_BASE_URL=http://localhost:8080" \
+-e "APP_BASE_URL=http://127.0.0.1:8080" \
 -it --rm -p 80:80 shopizerecomm/shopizer-shop-reactjs
 
-http://localhost
+http://127.0.0.1
 
 ## Change theme color
 
